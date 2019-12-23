@@ -1,0 +1,53 @@
+<p>to-do works!</p>
+<div class="container">
+    <a routerLink="/register">Login routerLink</a><br>
+    <a href="/login">Login href</a>
+    <div class="row"> 
+        <div class="col-md-6">
+            <table>
+                <thead>
+                    <th>Id</th>
+                    <th>Description</th>
+                    <th>Target Date</th>   
+                </thead>
+                         
+            <tbody>
+                <tr *ngFor='let todo of todos'>
+                    <td> {{todo.id}}</td>
+                    <td>{{todo.description}}</td>
+                    <td>{{todo.targetDate | date:'short'|uppercase}}</td>
+                </tr>
+              
+            </tbody>
+               
+            </table> 
+        
+
+        </div>
+        <div class="col-md-6">
+            <table>
+                <thead>
+                    <th>Id</th>
+                    <th>Description</th>
+                    <th>Target Date</th>   
+                </thead>
+                         
+            <tbody>
+            
+                <tr *ngFor='let todo of todos'>
+                    <td> {{todo.id}}</td>
+                    <td>{{todo.description}}</td>
+                    <td>{{todo.targetDate }}</td>
+                </tr>
+                
+            </tbody>
+               
+            </table>
+
+        </div>
+
+
+    </div>
+    
+    
+</div>

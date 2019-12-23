@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+.custdiv{
+    background-color: lightgray;
+}
+form{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    border:solid 2px grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div{
+    padding-bottom: 10px;
+}
+.check{
+    border:solid 5px grey;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:12px;
+}
